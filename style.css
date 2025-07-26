@@ -259,6 +259,7 @@ box-sizing: border-box;
 /* ................................................colorful-brance section ...............................*/
 .colorful-brance {
   position: relative;
+  margin-top: 150px;
   
   
 }
@@ -464,7 +465,9 @@ box-sizing: border-box;
 }
 
 /* ......................................colorful brance section................. */
-
+.colorful-brance{
+ margin-top: 15px;
+}
  .colorful-brance h1 {
   font-size: 20px ;
   
