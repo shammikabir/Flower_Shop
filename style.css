@@ -477,6 +477,8 @@ box-sizing: border-box;
   width: 150px;
   height: 35px;
   font-size: 12px;
+  border-radius: 0;
+  border: none;
  }
  .subscribe-button{
   width: 70px;
