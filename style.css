@@ -1,3 +1,5 @@
+/* ...................................Common styles.................................. */
+
 *{
 margin: 0; 
 padding: 0;
@@ -30,7 +32,7 @@ box-sizing: border-box;
     color: #E95A08;
 }
 
-/* Logo section */
+/* ...............................................Logo section ........................................*/
 .logo img {
     width: 90%;
 }
@@ -61,7 +63,7 @@ box-sizing: border-box;
     color:black;
 }
 /* 
-heading section */
+.....................................................heading section .............................*/
 
 .hero{
     margin-top: 120px;
@@ -88,7 +90,7 @@ heading section */
  
 }
 
-/* our plants section */
+/* ..........................................our plants section .................................*/
 .plants {
   padding: 50px;
   text-align: center;
@@ -147,10 +149,7 @@ heading section */
     background-color: black;
 }
 
-/* flower lover section */
-
-
-
+/* .....................................flower lover section............................... */
 
 .lover-img {
   position: relative;
@@ -171,10 +170,8 @@ heading section */
 }
 .lover-section{
     display: flex;
-    /* justify-content: space-between;
-     align-items: flex-start; */
-     margin-top: 150px;
-     gap: 60px;
+    margin-top: 150px;
+    gap: 60px;
 }
 .lover-text{
     flex: 1;
@@ -188,8 +185,8 @@ heading section */
    
     font-size: 22px;
 }
-/* animation */
-/* @keyframes spin {
+/* ..............................................animation ...................*/
+ @keyframes spin {
   0% {
     transform: rotate(0deg);
   }
@@ -200,9 +197,9 @@ heading section */
 
 .spin-animation {
   animation: spin 3s linear infinite;
-} */
+}
 
-/* latest deal section */
+/*...................................................... latest deal section ..........................*/
 .deals h2{
   text-align: center;
   font-size: 3.1rem;
@@ -259,7 +256,7 @@ heading section */
 .zabo-plant-text h1{
   font-size: 32px;
 }
-/* colorful-brance section */
+/* ................................................colorful-brance section ...............................*/
 .colorful-brance {
   position: relative;
   
@@ -306,10 +303,53 @@ heading section */
   color: #F5F8FF;
   font-size: 17px;
 
-  
+}
+
+
+/* ....................................................footer section design........................... */
+.footer-section{
+  margin-top: 80px;
+}
+.grid-display{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 130px;
 
 }
-/* responsive */
+.grid-display p{
+  color: grey;
+  margin-top: 20px;
+}
+.features{
+  display: flex;
+  gap: 100px;
+  margin-top: -40px;
+}
+.features ul li{
+  list-style: none;
+ margin-top: 30px;
+
+}
+.features a {
+     text-decoration: none;
+     
+      color: grey;
+}
+
+.social-media {
+ display: flex;
+ gap: 30px;
+ justify-items: baseline;
+
+}
+
+.twitter{
+  height: 20px;
+  width: auto;
+  margin-top: 8px;
+ 
+}
+/* .................................................responsive............................................ */
 
 @media screen and (max-width:576px){
     .nav-list li:nth-child(1),
@@ -351,7 +391,7 @@ heading section */
     margin: 0;
     font-size: 14px;
 }
-/* plants section */
+/* .................................plants section....................... */
 
 .plant-grid{
     
@@ -375,11 +415,11 @@ heading section */
 
 }
 
-/* overlay section */
+/* ...............................overlay section........................... */
 .overlay-img,.lover-text br{
     display: none;
 }
-.lover-section{
+.lover-section,.features{
     flex-direction: column;
    
 }
@@ -404,7 +444,7 @@ heading section */
     margin: 10px;
   }
 
-  /* latest deal section */
+  /* ................................latest deal section .......................*/
   .latest-deal{
     flex-direction: column;
     margin-top: 50px;
@@ -423,7 +463,7 @@ heading section */
   margin-right: 10px;
 }
 
-/* colorful brance section */
+/* ......................................colorful brance section................. */
 
  .colorful-brance h1 {
   font-size: 20px ;
@@ -442,12 +482,26 @@ heading section */
 
  }
 .colorful-brance img{
-  height: 250px;
+  height: 200px;
 }
    .subscribe-box {
     max-width: 80%;
     
    }
+/* ..............................................footer section................. */
+
+.grid-display{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 40px;
 
 }
+.features{
+  gap: 8px;
+}
+.footer-section{
+  margin-top: 30px;
+}
+}
 
+/*................................................. complete......................... */
